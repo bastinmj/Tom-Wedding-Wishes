@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Treesa & Tom – Wedding Wishes</title>
+  <style>
+    body {
+      background: url('tom.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Georgia', serif;
+      color: #4b3d2f;
+      margin: 0;
+    }
+    .form-container {
+      background: rgba(255, 255, 255, 0.8);
+      max-width: 500px;
+      margin: 10% auto;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #d4af37;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Leave Your Wishes 💌</h2>
+    <form action="https://script.google.com/macros/s/AKfycbzB3x4_ee6_rWjxU5P37npX5OOFiknUuSjY_D_khd6r5fiCOZiu9BlJDdY5HiXvQxJbdQ/exec" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <textarea name="message" rows="5" placeholder="Your Wishes" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</body>
+</html>
